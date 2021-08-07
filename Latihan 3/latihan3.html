@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Biodata</title>
+    </head>
+    <body align="center">
+
+        <form>
+            <u><h2>Biodata</h2></u>
+            <!--Membuat Nama-->
+            <b><label for="Nama">Nama : </label></b> <br>
+            <input type="text" size="20" name="nama" id="nama"/> <br> <br>
+            <!--Membuat Tempat dan tanggal Lahir-->
+            <b><label for="ttg">Tempat dan Tanggal Lahir : </label></b><br>
+            <input type="text" size="30" name="ttg" id="ttg"/> <br> <br>
+            <!--Membuat Jurusan dengan Select-->
+            <b><label for="jurusan">Jurusan :</label></b><br>
+            <select name="jurusan" id="jurusan">
+                <option value="">Pilih Jurusan</option>
+                <option value="Bahasa">Bahasa</option>
+                <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
+                <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                <option value="Multimedia">Multimedia</option>
+            </select> <br><br>
+            <!--Membuat Alamat-->
+            <b><label for="alamat">Alamat : </label></b> <br>
+            <textarea name="alamat" cols="20" rows="2"></textarea> <br><br>
+            <!--Membuat Jenis Kelamin dengan RadioButton-->
+            <b>Jenis Kelamin: </b><br>
+            <input type="radio" name="jkl" id="jkl" value="Pria"/>
+            <label for="Pria">Pria</label>
+            <input type="radio" name="jkl" id="jkl" value="Wanita"/>
+            <label for="Wanita">Wanita</label> <br><br>
+            <!--Membuat menu Agama dengan Select-->
+            <b><label for="agama">Agama : </label></b><br>
+            <select name="agama" id="agama">
+                <option value="">Pilih Agama</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghuchu">Konghuchu</option>
+            </select> <br><br>
+            <!--Membuat menu telpon-->
+            <b><label for="tlp">Telepon : </label></b>
+            <input type="text" size="20" name="tlp" id="ttg"/> <br><br>
+            <!--Membuat menu hobi dengan CheckBox-->
+            <b>Pilih Hobimu : </b><br>
+            <input type="checkbox" name="Hobi[]" id="bacabuku" value="Baca Buku"/>
+            <label for="bacabuku">Baca Buku </label>
+            <input type="checkbox" name="Hobi[]" id="menulis" value="Menulis"/>
+            <label for="menulis">Menulis </label>
+            <input type="checkbox" name="Hobi[]" id="berenang" value="berenang"/>
+            <label for="berenang">Berenang</label>
+        </form>
+
+    </body>
+</html>
